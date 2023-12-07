@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2b21b92d;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: #000000;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #302e2e;
+  margin-left: 20px;
+}
+
+.hero {
+  display: grid;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  align-items: center;
+}
+
+.hero-text {
+  grid-column: 1/2;
+  display: grid;
+  place-items: center;
+}
+
+.hero-text h1 {
+  align-content: start;
+}
+
+.hero-image {
+  display: grid;
+  place-items: center;
+}
+
+.hero-image img {
+  grid-column: 1/2;
+  max-width: 100%;
+  height: auto;
+}
+
+.download {
+  padding: 2rem 0rem;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #645aec;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #241e77;
+}
+
+footer {
+  background-color: #363232;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-social-icons {
+  margin-top: 10px;
+}
+
+.footer-social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social-icons i {
+  font-size: 24px;
+}
